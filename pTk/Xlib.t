@@ -331,7 +331,7 @@ VFUNC(int,XIntersectRegion,V_XIntersectRegion,_ANSI_ARGS_((Region, Region, Regio
 #endif /* !DO_X_EXCLUDE */
 
 #ifndef XKeycodeToKeysym
-VFUNC(KeySym,XKeycodeToKeysym,V_XKeycodeToKeysym,_ANSI_ARGS_((Display *, unsigned int, int)))
+VFUNC(KeySym,XKeycodeToKeysym,V_XKeycodeToKeysym,_ANSI_ARGS_((Display *, KeyCode, int)))
 #endif /* #ifndef XKeycodeToKeysym */
 
 #ifndef XKeysymToString
